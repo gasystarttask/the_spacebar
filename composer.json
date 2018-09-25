@@ -15,7 +15,9 @@
         "symfony/yaml": "*"
     },
     "require-dev": {
-        "symfony/dotenv": "*"
+        "symfony/debug-pack": "^1.0",
+        "symfony/dotenv": "*",
+        "symfony/profiler-pack": "^1.0"
     },
     "config": {
         "preferred-install": {
