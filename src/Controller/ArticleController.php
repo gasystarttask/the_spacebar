@@ -28,7 +28,7 @@ Class ArticleController extends AbstractController
       'I like bacon too! Buy some from my site! bakinsomebacon.com',
     ];
 
-    dump($slug, $this);
+    // dump($slug, $this);
 
     return $this->render('article/show.html.twig', [
       'title' => ucwords(str_replace('-', ' ', $slug)),
